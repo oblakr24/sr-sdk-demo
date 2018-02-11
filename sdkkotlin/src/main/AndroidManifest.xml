@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.sdkkotlin">
+
+    <application
+        android:name="demo.DemoApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="demo.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="demo.notifications.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="demo.matchlist.MatchListPagerActivity" />
+        <activity android:name="demo.matchdetails.MatchDetailsActivity" />
+        <activity android:name="demo.teamdetails.TeamDetailsActivity" />
+        <activity android:name="demo.notifications.SubscriptionsListActivity" />
+        <activity android:name="demo.tournamentlist.TournamentListActivity" />
+        <activity android:name="demo.tournamentdetails.TournamentDetailsActivity" />
+        <activity android:name="demo.stagedetails.StageDetailsActivity" />
+        <activity android:name="demo.seasondetails.SeasonDetailsActivity" />
+        <activity android:name="demo.motorsports.MotorsportActivity" />
+        <activity android:name="demo.playerdetails.PlayerDetailsActivity" />
+        <activity android:name="demo.favourites.FavouritesActivity" />
+        <activity android:name="demo.sportslist.SportsListActivity" />
+        <activity android:name="demo.motorsports.MotorsportSeasonDetailsActivity" />
+        <activity android:name="demo.motorsports.MotorsportStageDetailsActivity" />
+        <activity android:name="demo.motorsports.MotorsportRaceDetailsActivity" />
+    </application>
+
+</manifest>
