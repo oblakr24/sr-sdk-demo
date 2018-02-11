@@ -1,0 +1,4 @@
+This is a demonstration app demonstrating the full functionality of the SportRadar Mobile SDK. 
+It is intended to demonstrate the use cases and provide samples of fetching the sports data. It supports 10 sports and includes accurate statistics and other details of matches, tournaments, teams, players etc., live match tracking, notification subscriptions, favouriting matches, teams and tournaments, as well as tracking the pre-match odds.
+
+The instructions on how to use the SportRadar Mobile Development Platform and the Mobile SDK are available at https://mdp.sportradar.com.
